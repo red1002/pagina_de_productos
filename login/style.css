@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #1B2223;
+	height: 100vh;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	padding: 10px 10px;
+	border: 2px solid #0ef6cc;
+	border-radius: 10px;
+	background: #3A4F50;
+	box-shadow: 0px 0px 6px 1px #0ef6cc;
+}
+
+form h1{
+	font-size: 30px;
+	font-weight: 700;
+	color: #F4FEFD;
+	margin-bottom: 20px;
+}
+
+form label{
+	margin-top: 35px;
+}
+
+form label svg{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+form label input{
+	width: 250px;
+	height: 40px;
+	font-size: 15px;
+	padding: 0 5px;
+	color: #f4fefd;
+	border: none;
+	border-bottom: 1px solid #f4fefd;
+	background: transparent;
+	outline: none;
+	transition: 300ms all;
+}
+
+form label input:hover{
+	border-bottom: 1px solid #0ef6cc;
+}
+
+::placeholder{
+	font-size: 15px;
+}
+
+#forgot{
+	text-decoration: none;
+	color: #f4fefd;
+	font-size: 15px;
+	margin-top: 10px;
+	transition: 300ms all;
+}
+
+#forgot:hover{
+	color: #0ef6cc;
+}
+
+form button{
+	margin-top: 40px;
+	width: 200px;
+	height: 40px;
+	border: none;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 540;
+	color: #0ef6cc;
+	background: #f4fefd;
+	outline: none;
+	cursor: pointer;
+	transition: 300ms all;
+}
+
+form button:hover{
+	color: #f4fefd;
+	background: #0ef6cc;
+	box-shadow: 0px 0px 7px #f4fefd;
+}
+
+#registro{
+	text-decoration: none;
+	color: #f4fefd;
+	font-size: 12px;
+	margin-top: 10px;
+	transition: 300ms all;
+}
+
+#registro:hover{
+	color: #0ef6cc;
+}
